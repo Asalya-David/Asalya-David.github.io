@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 2px;
+    font-family: century;
+}
+
+
+ul{
+    float: left; 
+    margin-top: 25px;
+
+}
+
+div ul li{
+    list-style-type: none;
+}
+
+
+ul a{
+    font-style: initial;
+    color: yellowgreen;
+    text-underline-position: none;
+    display: flex;
+    position: static;
+    padding: 15px 40px;
+    font-size: 2rem;
+
+}
+
+div ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: rgb(6, 248, 248);
+    background: rgb(211, 209, 209);
+    color: black; 
+    padding: 3px 10px;
+    border: sandybrown;
+    transition: 1s;
+}
+
+header{
+    height: 30vh;
+}
+
+ul li a:hover{
+    background-color: orange;
+    color: #000;
+}
+
+ul li.active a{
+    background-color:burlywood;
+    color: #000;
+}
+
+.main{
+    max-width: none;
+    margin: auto;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+
+
+
